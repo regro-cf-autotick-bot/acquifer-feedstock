@@ -1,5 +1,5 @@
 {% set name = "acquifer" %}
-{% set version = "1.0.0" %}
+{% set version = "2.0.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/acquifer-{{ version }}.tar.gz
-  sha256: 06e0204fb642f101516e53c640bcbf776b2ae15fc91cc5f02db488ac43b567bf
+  sha256: 823118b0365361e1f8afab5409bbe9c502319a20a0d007455ec3130fe539a381
 
 build:
   noarch: python
